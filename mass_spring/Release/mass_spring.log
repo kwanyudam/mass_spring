@@ -1,0 +1,12 @@
+﻿빌드 시작: 2016-02-24 오후 5:26:52
+     1>2 노드의 "D:\Projects\VisualStudio\mass_spring\mass_spring\mass_spring.vcxproj" 프로젝트(Build 대상)입니다.
+     1>Link:
+         D:\Programs\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Projects\VisualStudio\mass_spring\Release\mass_spring.exe" /NOLOGO opengl32.lib glfw3.lib glfw3dll.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Projects\VisualStudio\mass_spring\Release\mass_spring.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Projects\VisualStudio\mass_spring\Release\mass_spring.lib" /MACHINE:X86 /SAFESEH Release\main.obj
+     1>main.obj : error LNK2001: _gluPerspective@32 외부 기호를 확인할 수 없습니다.
+     1>main.obj : error LNK2001: _gluLookAt@72 외부 기호를 확인할 수 없습니다.
+     1>D:\Projects\VisualStudio\mass_spring\Release\mass_spring.exe : fatal error LNK1120: 2개의 확인할 수 없는 외부 참조입니다.
+     1>"D:\Projects\VisualStudio\mass_spring\mass_spring\mass_spring.vcxproj" 프로젝트를 빌드했습니다(Build 대상). - 실패
+
+빌드하지 못했습니다.
+
+경과 시간: 00:00:00.41
